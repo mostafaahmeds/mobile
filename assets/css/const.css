@@ -1,0 +1,59 @@
+/* media for all section */
+@media (min-width: 1024px) {
+    
+    section {
+    overflow: hidden;
+    padding: 80px 40px 30px 40px;
+    scroll-margin-top: 90px;
+    overflow: clip;
+    }
+}
+/* section in mobile */
+section {
+overflow: hidden;
+padding: 40px 5px 0 5px;
+scroll-margin-top: 90px;
+overflow: clip;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    transition: 0.4s ease-in-out;
+    text-decoration: none;
+    color: #000;
+}
+
+.background {
+background-color: #eee;
+}
+/* section header */
+.section-header {
+text-align: center;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+/* section h2 */
+.section-header h2 {
+font-size: 13px;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0;
+padding: 0;
+color: #7f7f90;
+text-transform: uppercase;
+font-family: #212529;
+}
+/* section p */
+.section-header p {
+margin: 0;
+font-size: 48px;
+font-weight: 400;
+font-family: "Amatic SC", sans-serif;
+}
+/* section red text */
+.section-header p span {
+color: #ce1212;;
+}
+
+
