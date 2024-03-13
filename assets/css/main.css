@@ -894,7 +894,7 @@ font-family: #212529;
   
 }
 .food-group .food-item .box-img img{
-  width: 60%;
+  width: 100%;
   height: 100%;
   object-fit: contain;
 }
