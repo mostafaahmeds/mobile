@@ -886,7 +886,7 @@ font-family: #212529;
   width: 100%;
 }
 .food-group .food-item .box-img{
-  height: 170px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -896,7 +896,7 @@ font-family: #212529;
 .food-group .food-item .box-img img{
   width: 60%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 /* food media */
 @media (min-width:1024px) {
